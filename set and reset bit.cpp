@@ -9,8 +9,8 @@ int main() {
     cin>>to_be_set;
     cout<<"enter bit to be reset: \n";
     cin>>to_be_reset;
-    int set=a | (2<<to_be_set);
-    int reset= a|(-(2<<to_be_set));
+    int set=a | (1<<to_be_set);
+    int reset= a|(-(1<<to_be_set));
     cout<<reset<<endl;
     cout<<set<<endl;
 return 0;
